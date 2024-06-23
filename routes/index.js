@@ -4,6 +4,10 @@ const auth = require("../controllers/Users.js")
 
 /* GET home page. */
 
+router.get('/', (req, res) => {
+  res.send('hello world')
+})
+
 router.post("/logout" , auth.Logout)
 
 // router.get('/adminhome', function(req, res, next) {
