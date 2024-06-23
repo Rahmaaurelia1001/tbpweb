@@ -5,7 +5,8 @@
   "scripts": {
     "start": "nodemon ./bin/www",
     "dev": "nodemon start",
-    "buildaw": "tailwindcss -i ./dist/main.css -o ./dist/output.css"
+    "buildaw": "tailwindcss -i ./dist/main.css -o ./dist/output.css",
+    "build": "nodemon build"
   },
   "dependencies": {
     "axios": "^1.7.2",
